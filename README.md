@@ -29,10 +29,10 @@ The big difference between my guide and the ones I referenced is where I compile
 3. After unscrewing, flip your X220 over and remove the keyboard and palm rest. 
 4. After removing the keyboard and palm rest peel back the corner of the black protective plastic to find the BIOS chip we will be flashing.
 
+A helpful video highlighting the specifics of disassembly: [X220 Teardown](https://www.youtube.com/watch?v=iJs01Q8EuDw) 
+
 ### Raspberry Pi Setup: Internet Connection, SPI, and SSH
 
 ## Coreboot Compilation
 
 ## Flashing
-
-A helpful video highlighting the specifics of disassembly: [X220 Teardown](https://www.youtube.com/watch?v=iJs01Q8EuDw) 
