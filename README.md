@@ -143,8 +143,8 @@ I am doing all of this on a separate computer as noted before, not a Pi.
         this machine. Ultimately I will not need windows, but if I ever sell this laptop someone else might want
         windows. If you plan on using SeaBIOS you can use the same VGABIOS firmware in this repository. 
       - I elected for a bootsplash image. If you don't upload your own bootsplash image, none will show up at all.
-        What's the fun in no bootsplash? I got my bootsplash off of reddit, and you can find more bootsplashes here. 
-        Bootsplashes have to be 1200x768, so making a custom one isn't too difficult.
+        What's the fun in no bootsplash? I got my bootsplash off of reddit, and you can find more bootsplashes [here](https://github.com/ifrit05/coreboot-bootsplashes). 
+        Bootsplashes have to be 1024x768, so making a custom one isn't too difficult.
       ```
       cd ~/coreboot
       make nconfig 
@@ -221,3 +221,4 @@ I am doing all of this on a separate computer as noted before, not a Pi.
      ```
      fr -c "$CHIP_NAME" -w coreboot.rom
      ``` 
+Flashing should take a few minutes, but once you are done that's it! You can power down your Pi and reassemble your ThinkPad. Enjoy your corebooted laptop!
